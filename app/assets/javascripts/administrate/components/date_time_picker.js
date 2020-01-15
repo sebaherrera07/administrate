@@ -7,7 +7,7 @@ $(function () {
     debug: false,
     format: "YYYY-MM-DD HH:mm:ss",
   });
-  ('[data-type="date"]').datetimepicker({
+  $('[data-type="date"]').datetimepicker({
     debug: false,
     format: "YYYY-MM-DD",
   });
