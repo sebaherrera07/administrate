@@ -54,6 +54,7 @@ specify, including:
 - `Field::BelongsTo`
 - `Field::Boolean`
 - `Field::DateTime`
+- `Field::Date`
 - `Field::Email`
 - `Field::HasMany`
 - `Field::HasOne`
@@ -189,6 +190,11 @@ objects to display as.
 
 `:timezone` - Specify which timezone `Date` and `DateTime` objects are based
 in.
+
+**Field::Date**
+
+`:format` - Specify what format, using `strftime` you would like `Date`
+objects to display as.
 
 **Field::Select**
 
